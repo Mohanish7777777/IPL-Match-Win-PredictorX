@@ -110,4 +110,19 @@ else:
             st.error("Please fill all the required details")
     else:
         st.error('There is something wrong with the input, please fill in the correct details as of IPL T-20 format')
+hide_st_style = """
+
+            <style>
+
+            #MainMenu {visibility: hidden;}
+
+            footer {visibility: hidden;}
+
+            header {visibility: hidden;}
+
+            </style>
+
+            """
+
+st.markdown(hide_st_style, unsafe_allow_html=True)
 
